@@ -6,6 +6,8 @@ import school from "./images/getmyschool.jpg"
 import "./App.css"
 import { useState } from "react"
 import { FaWhatsapp } from "react-icons/fa"
+import resume from "./resume.pdf"
+
 
 
 function App() {
@@ -53,8 +55,10 @@ function App() {
           <p>
             I build modern, responsive and SEO optimized business websites using React.
           </p>
+<a href={resume} download>
+  <button>Download Resume</button>
+</a>
 
-          <button>Download Resume</button>
         </section>
 
         {/* ABOUT */}
