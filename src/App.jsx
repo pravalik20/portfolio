@@ -44,7 +44,7 @@ function App() {
 
         {/* HERO */}
         <section className="hero">
-          <h1>WEB Developer 👋</h1>
+          <h1>WEB & Digital Marketing 👋</h1>
           
           <p>
             I build modern, responsive and SEO optimized business websites using React.
@@ -73,21 +73,22 @@ function App() {
 
         {/* SKILLS */}
         <section>
-          <h2>Skills</h2>
-          <div className="skills">
-            {[
-              "React", "JavaScript", "HTML", "CSS", "C++", "WordPress",
-              "Responsive Design", "Node.js", "API Integration",
-              "Database Handling", "SEO", "Google Analytics",
-              "Performance Optimization", "Git", "UI/UX Design",
-              "Web Development", "Application Development",
-              "Website Maintenance", "Digital Marketing",
-              "Poster Design", "Photography", "Videography", "Video Editing"
-            ].map(skill => (
-              <span key={skill} className="skill">{skill}</span>
-            ))}
-          </div>
-        </section>
+  <h2>Skills</h2>
+  <div className="skills">
+    {[
+      "React", "JavaScript", "HTML", "CSS", "C++", "WordPress",
+      "Responsive Design", "Node.js", "API Integration",
+      "Database Handling", "SEO", "Google Analytics",
+      "Meta Ads", "Google Ads", "Campaign Management",
+      "Performance Optimization", "Git", "UI/UX Design",
+      "Web Development", "Application Development",
+      "Website Maintenance", "Digital Marketing",
+      "Poster Design", "Photography", "Videography", "Video Editing"
+    ].map(skill => (
+      <span key={skill} className="skill">{skill}</span>
+    ))}
+  </div>
+</section>
 
         {/* SERVICES */}
         <section className="featured-services">
